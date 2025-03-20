@@ -2,16 +2,13 @@
 
 ## Overview of the Analysis
 
-Purpose of the analysis. 
-
+Purpose of the analysis: 
 The goal of this analysis is to determine whether the Logistic Regression ML model can more accurately predict healthy loans vs high-risk loans using the original dataset or a dataset resampled to increase the size of the minority class. 
 
-Dataset.
-
+Dataset:
 The dataset used to perform the analysis consists of information on 77,536 loans. The data includes columns for loan size, interest rate, borrower's income, debt to income ration, number of accounts, derotatory marks, total debt, and loan status. The category we are attempting to predict with our analysis is loan status. The provided in the remaining columns will be used as features to train the model and inform predictions.
 
-ML Process.
-
+ML Process:
 * Prepare the data: import the file, establish the dataframe, evaluate the columns and features.
 * Separate the data into features and labels: the labels are what we are attempting to predict -- the status of the loan (healthy, 0; high risk, 1) -- while the features are all of the remaining data used to train and test the model.
 * Use train_test_split function to separate the features and labels data into training and testing datasets.
@@ -21,11 +18,10 @@ ML Process.
 * Use model to make a list of predictions using the testing data.
 * Evaluate the predictions by calculating and comparing accuracy score, confusion matrix, and classifcation report.
 
-ML Methods Used.
-
-Primary model: LogisticRegression from SKLearn
-Supporting functions: train_test_split from SKLearn
-Model evaluation: confusion_matrix and classification_report from SKLearn
+ML Methods Used:
+* Primary model: LogisticRegression from SKLearn
+* Supporting functions: train_test_split from SKLearn
+* Model evaluation: confusion_matrix and classification_report from SKLearn
 
 ## Results
 
