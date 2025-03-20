@@ -3,9 +3,11 @@
 ## Overview of the Analysis
 
 Purpose of the analysis: 
+
 The goal of this analysis is to determine whether the Logistic Regression ML model can more accurately predict healthy loans vs high-risk loans using the original dataset or a dataset resampled to increase the size of the minority class. 
 
 Dataset:
+
 The dataset used to perform the analysis consists of information on 77,536 loans. The data includes columns for loan size, interest rate, borrower's income, debt to income ration, number of accounts, derotatory marks, total debt, and loan status. The category we are attempting to predict with our analysis is loan status. The provided in the remaining columns will be used as features to train the model and inform predictions.
 
 ML Process:
